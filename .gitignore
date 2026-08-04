@@ -1,0 +1,8 @@
+﻿__pycache__/
+*.pyc
+.venv/
+venv/
+scopecpp/build/
+*.csv
+scope_screen*.png
+scope_config*.json
