@@ -4,11 +4,11 @@
 พัฒนาเป็นโปรเจกต์รายวิชา มีสามเวอร์ชันที่ใช้แนวคิด hardware layer
 เดียวกัน (แยกชั้นควบคุมฮาร์ดแวร์ออกจาก UI อย่างเด็ดขาด):
 
-| เวอร์ชัน | สถานะ | โฟลเดอร์ |
+| เวอร์ชัน |  | โฟลเดอร์ |
 |---|---|---|
-| Python + Tkinter | ✅ ใช้งานได้ ทดสอบกับเครื่องจริงแล้ว | `gui_tk/` |
-| Python + PyQt6 | ✅ ใช้งานได้ ทดสอบกับเครื่องจริงแล้ว | `gui_qt/` |
-| C++ + Qt6 + libusb | 🟡 Build และเปิดหน้าต่างได้แล้ว ยังไม่เคยทดสอบกับเครื่องจริง | `scopecpp/` |
+| Python + Tkinter |  | `gui_tk/` |
+| Python + PyQt6 |  | `gui_qt/` |
+| C++ + Qt6 + libusb |  | `scopecpp/` |
 
 ทั้งสามเวอร์ชันมีฟีเจอร์ตรงกัน: Connection, Acquisition, Channel,
 Timebase, Trigger, Waveform, Measurement, SCPI Console, Save/Load
