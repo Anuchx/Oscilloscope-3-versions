@@ -6,3 +6,4 @@ scopecpp/build/
 *.csv
 scope_screen*.png
 scope_config*.json
+scopecpp/.vscode/
